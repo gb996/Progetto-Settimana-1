@@ -63,6 +63,8 @@
          background-size: cover;
          background-position: center;
          background-repeat: no-repeat;
+         background-color: blue;
+padding-right: 20px;
          height: 400px;
       }
 
@@ -94,6 +96,8 @@
          color: #F44A4A;
          text-align: center;
          margin-top: 70px;
+         margin-bottom: 70px;
+
       }
 
       .glossario {
@@ -116,9 +120,6 @@
          height: 10vh;
       }
 
-      .presentazione {
-         color: blue;
-      }
 
       #Nome:focus {
          background-color: black;
@@ -135,10 +136,7 @@
          color: white;
       }
 
-      label {
-         color: #1F3D7A;
-      }
-
+     
       button {
          background-color: hsl(220, 60%, 30%);
          color: hsl(220, 60%, 30%);
@@ -170,7 +168,7 @@
          border-radius: 12px;
          padding: 20px;
          box-shadow: 4px 4px 4px gray;
-         
+
       }
 
       button {
@@ -186,13 +184,14 @@
       }
 
       .sfondo {
-        padding: 0px 0 7px 8px;
+         padding: 0px 0 7px 8px;
          border-radius: 8px;
          border-left: 4px solid #F2B90D;
       }
-      .sfondo:nth-child(even){
-         background-color:#FBF8EF;
-         box-shadow: -8px 0px 10px -4px color ;
+
+      .sfondo:nth-child(even) {
+         background-color: #FBF8EF;
+         box-shadow: -8px 0px 10px -4px color;
          border-left: 4px solid #1F3D7A;
       }
 
@@ -223,7 +222,7 @@
 
       .lista1 {
          font-size: large;
-         
+
       }
 
       .lista1 a {
@@ -243,108 +242,136 @@
          text-align: center;
          margin-left: 7px;
       }
-      .undtest{
+
+      .undtest {
          color: #1F3D7A;
       }
 
 
-      .tdlist1{
-width: 40%;
+      .tdlist1 {
+         width: 40%;
 
       }
 
-      table{
-      
+      table {
+
          width: 90%;
-        
+         border-collapse: collapse;
+
       }
-      thead{
+
+      thead {
          text-align: center;
          background-color: #F9F5EA;
-         color: blue;     
-       }
-      .capolista{
-         border-bottom:  6px solid ;
-         border-color: #000000;
-         
-        
-      
+         color: blue;
       }
-     
-      
-      th #tabella{
+
+      .capolista {
+         border-bottom: 1px solid;
+         border-color: #EDE7DA;
+
+
+
+      }
+
+
+      th #tabella {
          max-width: 50%;
       }
 
-      .barra{
-      background-color: #ECE6D8;
-      height: 20px;
-      width: 85%;
-      display: inline-block;
-      
-      border-radius: 8px;
-      text-align: center;
-      
-      
-      
+      .barra {
+         background-color: #ECE6D8;
+         height: 20px;
+         width: 85%;
+         display: inline-block;
+
+         border-radius: 8px;
+         text-align: center;
+
+
+
       }
-      
-      .barra2{
+
+      .barra2 {
          background-color: #F2B90D;
-      height: 100%;
-      width: 65%;
-      height: 100%;
-      display: block;
-   
-      border-radius: 8px;
-      border: 0px;
-      padding: 0px;
+         height: 100%;
+         width: 65%;
+         height: 100%;
+         display: block;
+
+         border-radius: 8px;
+         border: 0px;
+         padding: 0px;
 
       }
-      .tdlist1 th{
+
+      .tdlist1 th {
          width: 50%;
-         
+
 
       }
-   
-      .abc{
+
+      .abc {
          border: solid 1 px;
       }
 
       p {
-        
-         font-weight: normal ;
+
+         font-weight: normal;
       }
-      span table{
+
+      span table {
          font-size: 10rm;
       }
-      span{
-      padding-right: 10px;
-      font-size: large;
+
+      span {
+         padding-right: 10px;
+         font-size: large;
       }
-      
-      .tdlist2{
+
+      .tdlist2 {
          height: 40px;
+         color: #193366;
       }
-.cont2{
-   min-height: 40px;
-}
-.tb2 td{
-  padding: 20px 0 20px 0;
-  border-bottom: solid 1px color #F4F1EC;
-  font-size: 1.2em;
-}
-article{
-   background-color: white;
-}
-input,select,textarea{
-   background-color: #F4F1EC;
-}
-label{
-   color: blue;
-   font-size: medium;
-}
- .footericon{
-font-size: 4em;
-color: white;
- }
+
+      .cont2 {
+         min-height: 40px;
+      }
+
+      .tb2 td {
+         padding: 20px 0 20px 0;
+         border-bottom: solid 1px color #F4F1EC;
+         font-size: 1.2em;
+      }
+
+      article {
+         background-color: white;
+      }
+
+      input,
+      select,
+      textarea {
+         background-color: #F4F1EC;
+         width: 100%;
+      }
+
+      label {
+         color: #193366;
+         font-size: medium;
+      }
+
+      .footericon {
+         font-size: 4em;
+         color: white;
+      }
+
+      .tb2 {
+         border-collapse: collapse;
+         border-bottom: 1px solid #FFFFFF;
+         padding-left: 10px;
+      }
+
+      td .tb2 {
+         padding-left: px20;
+      }
+     
