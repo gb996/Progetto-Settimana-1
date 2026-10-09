@@ -115,9 +115,9 @@ padding-right: 20px;
 
       footer {
          background-color: #172136;
-         color: white;
          text-align: center;
          height: 10vh;
+         color: #848687;
       }
 
 
@@ -250,6 +250,7 @@ padding-right: 20px;
 
       .tdlist1 {
          width: 40%;
+         
 
       }
 
@@ -281,7 +282,7 @@ padding-right: 20px;
 
       .barra {
          background-color: #ECE6D8;
-         height: 20px;
+         height: 10px;
          width: 85%;
          display: inline-block;
 
@@ -295,7 +296,7 @@ padding-right: 20px;
       .barra2 {
          background-color: #F2B90D;
          height: 100%;
-         width: 65%;
+         width: 100%;
          height: 100%;
          display: block;
 
