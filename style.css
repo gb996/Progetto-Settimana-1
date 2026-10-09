@@ -113,6 +113,7 @@
          background-color: #172136;
          color: white;
          text-align: center;
+         height: 10vh;
       }
 
       .presentazione {
@@ -184,7 +185,13 @@
       }
 
       .sfondo {
-         background-color: rgb(221, 218, 43);
+        padding: 0px 0 7px 8px;
+         border-radius: 8px;
+      }
+      .sfondo:nth-child(even){
+         background-color:#FBF8EF;
+         box-shadow: -8px 0px 10px -4px color ;
+
       }
 
       .ricetta::after {
@@ -320,6 +327,18 @@ width: 40%;
 .cont2{
    min-height: 40px;
 }
-.tb2{
-   min-height: 40px;
+.tb2 td{
+  padding: 20px 0 20px 0;
+  border-bottom: solid 1px color #F4F1EC;
+  font-size: 1.2em;
+}
+article{
+   background-color: white;
+}
+input,select,textarea{
+   background-color: #F4F1EC;
+}
+label{
+   color: blue;
+   font-size: medium;
 }
