@@ -69,9 +69,12 @@
       #start {
          height: 100%
       }
+
       nav {
          height: 100%;
          width: 100%;
+         border-bottom: 4px solid;
+         color: #F5C73D;
       }
 
       #section {
@@ -174,7 +177,7 @@
       }
 
       main section h2::before {
-         content: "__";
+         content: "";
          color: yellowgreen;
 
       }
@@ -201,30 +204,96 @@
          list-style-type: none;
          border-radius: 8px;
          display: inline-block;
-margin-left: 10px;
-height: 15px;
+         margin-left: 10px;
+         height: 15px;
 
 
 
       }
 
       .lista1 {
-        font-size: large;
-        font
+         font-size: large;
+         
       }
 
-      .lista1 a{
-      width: 100%;
-      max-height: 100%;
-      text-align: center;
-      border: 1px solid;
-      border-color: white;
-      border-radius: 8px;
-      padding: 25px 4px 4px 30px;
-      display: inline;
-      color: white;
+      .lista1 a {
+         width: 100%;
+         max-height: 100%;
+         text-align: center;
+         border: 1px solid;
+         border-color: white;
+         border-radius: 8px;
+         padding: 25px 4px 4px 30px;
+         display: inline;
+         color: white;
       }
-      .lsiat1  a{
-         margin-button:3px ;
+
+      .lista1 a {
+         margin-bottom: 3px;
+         text-align: center;
+         margin-left: 7px;
+      }
+      .undtest{
+         color: #1F3D7A;
+      }
+
+
+      .tdlist1{
+width: 40%;
+
+      }
+
+      table{
+         border:  ;
+         width: 90%;
+        
+      }
+      thead{
+         text-align: center;
+         background-color: #F9F5EA;
+         color: blue;     
+       }
+      .capolista{
+         border-bottom:  2px solid ;
+         border-color: #F4F1EC;
+        
+      
+      }
+      td{
+         border: solid;
       }
       
+      th #tabella{
+         max-width: 50%;
+      }
+
+      .barra{
+      background-color: #ECE6D8;
+      height: 20px;
+      width: 85%;
+      display: inline-block;
+      
+      border-radius: 8px;
+      text-align: center;
+      
+      
+      
+      }
+      
+      .barra2{
+         background-color: #F2B90D;
+      height: 100%;
+      width: 65%;
+      height: 100%;
+      display: block;
+   
+      border-radius: 8px;
+      border: 0px;
+      padding: 0px;
+
+      }
+      .tdlist1 th{
+         width: 50%;
+         
+
+      }
