@@ -170,6 +170,7 @@
          border-radius: 12px;
          padding: 20px;
          box-shadow: 4px 4px 4px gray;
+         
       }
 
       button {
@@ -187,11 +188,12 @@
       .sfondo {
         padding: 0px 0 7px 8px;
          border-radius: 8px;
+         border-left: 4px solid #F2B90D;
       }
       .sfondo:nth-child(even){
          background-color:#FBF8EF;
          box-shadow: -8px 0px 10px -4px color ;
-
+         border-left: 4px solid #1F3D7A;
       }
 
       .ricetta::after {
@@ -262,8 +264,8 @@ width: 40%;
          color: blue;     
        }
       .capolista{
-         border-bottom:  2px solid ;
-         border-color: #F4F1EC;
+         border-bottom:  6px solid ;
+         border-color: #000000;
          
         
       
@@ -342,3 +344,7 @@ label{
    color: blue;
    font-size: medium;
 }
+ .footericon{
+font-size: 4em;
+color: white;
+ }
