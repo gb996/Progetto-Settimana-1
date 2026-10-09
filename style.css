@@ -5,6 +5,7 @@
          margin: 0;
          padding: 0;
          overflow: auto;
+         background-color: #f4f1ec;
       }
 
       * {
@@ -31,11 +32,11 @@
       }
 
       .firstparagraph {
-         margin-top: -50px;
+         margin-top: -30px;
          background-color: white;
       }
 
-      .section {
+      section {
          background-color: white;
 
       }
@@ -68,7 +69,6 @@
       #start {
          height: 100%
       }
-
       nav {
          height: 100%;
          width: 100%;
@@ -99,7 +99,10 @@
          width: 100%;
          line-height: 80px;
          padding-top: 60px;
-
+         list-style-type: none;
+         padding: 0;
+         margin: 0;
+         display: inline-block;
       }
 
 
@@ -191,4 +194,37 @@
          color: white;
       }
 
+      .contlist {
+         border: 1px solid;
+         border-color: white;
+         font-size: 1.7em;
+         list-style-type: none;
+         border-radius: 8px;
+         display: inline-block;
+margin-left: 10px;
+height: 15px;
+
+
+
+      }
+
+      .lista1 {
+        font-size: large;
+        font
+      }
+
+      .lista1 a{
+      width: 100%;
+      max-height: 100%;
+      text-align: center;
+      border: 1px solid;
+      border-color: white;
+      border-radius: 8px;
+      padding: 25px 4px 4px 30px;
+      display: inline;
+      color: white;
+      }
+      .lsiat1  a{
+         margin-button:3px ;
+      }
       
