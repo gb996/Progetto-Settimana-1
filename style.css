@@ -176,9 +176,10 @@
          text-align: center;
       }
 
-      main section h2::before {
-         content: "";
+      h2::before {
+         content: '\2756';
          color: yellowgreen;
+         padding-right: 10px;
 
       }
 
@@ -260,9 +261,7 @@ width: 40%;
         
       
       }
-      td{
-         border: solid;
-      }
+     
       
       th #tabella{
          max-width: 50%;
@@ -314,7 +313,13 @@ width: 40%;
       padding-right: 10px;
       font-size: large;
       }
-      th{
-           
-        }
       
+      .tdlist2{
+         height: 40px;
+      }
+.cont2{
+   min-height: 40px;
+}
+.tb2{
+   min-height: 40px;
+}
