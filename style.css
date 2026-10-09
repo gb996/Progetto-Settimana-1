@@ -6,6 +6,7 @@
          padding: 0;
          overflow: auto;
          background-color: #f4f1ec;
+         font: font-family "Roboto", sans-serif;
       }
 
       * {
@@ -29,7 +30,7 @@
          float: left;
          border: 3px solid;
          border-color: #F5C73D;
-      }
+               }
 
       .firstparagraph {
          margin-top: -30px;
@@ -51,6 +52,7 @@
          margin: 0;
          text-align: center;
          padding-top: 150px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
       }
 
       #inizio {
@@ -64,7 +66,7 @@
          background-position: center;
          background-repeat: no-repeat;
          background-color: blue;
-padding-right: 20px;
+         padding-right: 20px;
          height: 400px;
       }
 
@@ -97,7 +99,8 @@ padding-right: 20px;
          text-align: center;
          margin-top: 70px;
          margin-bottom: 70px;
-
+font-size: xx-large;
+text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
       }
 
       .glossario {
@@ -136,7 +139,7 @@ padding-right: 20px;
          color: white;
       }
 
-     
+
       button {
          background-color: hsl(220, 60%, 30%);
          color: hsl(220, 60%, 30%);
@@ -250,7 +253,7 @@ padding-right: 20px;
 
       .tdlist1 {
          width: 40%;
-         
+
 
       }
 
@@ -375,4 +378,11 @@ padding-right: 20px;
       td .tb2 {
          padding-left: px20;
       }
-     
+
+      .ckbox {
+         display: inline;
+         text-align: left;
+      }
+
+      .finger {
+text-align: right;      }
